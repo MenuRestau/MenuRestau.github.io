@@ -1,0 +1,119 @@
+body{
+    background: linear-gradient(to left, rgb(212, 209, 122),rgb(112, 53, 53));
+}
+
+h1{
+    color: rgba(219, 178, 130, 0.8);
+    position: absolute;
+    font-size: 70px;
+    left: 20px;
+    animation: ani 1.5s ease;
+}
+
+.title{
+    height: 120px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    left: 15px;
+    top: 40px;
+    border-radius: 50px;
+    animation: ani 1.5s ease;
+}
+
+.animal1{
+    height: 200px;
+    width: 300px;
+    background: url(lem.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 200px;
+    left: 45px;
+    border-radius: 50px;
+    animation: ani 1.5s ease;
+}
+
+.animal2{
+    height: 200px;
+    width: 300px;
+    background: url(o.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 600px;
+    left: 45px;
+    border-radius: 50px;
+    animation: ani 1.5s ease;
+}
+
+.animal3{
+    height: 200px;
+    width: 300px;
+    background: url(w.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 1000px;
+    left: 45px;
+    border-radius: 50px;
+    animation: ani 1.5s ease;
+}
+
+
+.add{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 1300px;
+}
+
+.style1{
+    font-size: 30px;
+    position: absolute;
+    top: 420px;
+    left: 90px;
+    color: antiquewhite;
+    animation: ani 1.5s ease;
+}
+
+.style2{
+    font-size: 30px;
+    position: absolute;
+    top: 820px;
+    left: 70px;
+    color: antiquewhite;
+    animation: ani 1.5s ease;
+}
+
+.style3{
+    font-size: 30px;
+    position: absolute;
+    top: 1220px;
+    left: 120px;
+    color: antiquewhite;
+    animation: ani 1.5s ease;
+}
+
+.beve{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 1350px;
+    left: 80px;
+    animation: ani 1.5s ease;
+    color: rgb(107, 105, 79,.9);
+    background-color: rgb(240, 213, 177,.8);
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+
+@keyframes ani {
+    0%{
+        transform: translateY(100px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
