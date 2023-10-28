@@ -147,6 +147,27 @@ h1{
     animation: ani 1.5s ease;
 }
 
+.beve{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 2500px;
+    left: 90px;
+    animation: ani 1.5s ease;
+    color: rgb(107, 105, 79,.9);
+    background-color: rgb(240, 213, 177,.8);
+    font-size: 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+.add{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 2600px;
+}
+
 
 @keyframes ani {
     0%{
